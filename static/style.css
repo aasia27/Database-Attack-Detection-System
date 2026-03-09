@@ -1,0 +1,32 @@
+body{
+  font-family: Arial;
+  text-align:center;
+  margin-top:70px;
+}
+input{
+  padding:10px;
+  width:240px;
+}
+button{
+  padding:10px 20px;
+  background: #1e66ff;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+.msg{
+  margin-top:15px;
+  font-weight:bold;
+}
+table{
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+th, td{
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+th{
+  background: #f2f2f2;
+}
