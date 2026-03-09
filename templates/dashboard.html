@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Security Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h2>Security Dashboard</h2>
+  <p>Recent Attack Logs</p>
+
+  <table>
+    <tr>
+      <th>Username</th>
+      <th>Attack Type</th>
+      <th>Time</th>
+    </tr>
+    {% for a in attacks %}
+    <tr>
+      <td>{{ a[0] }}</td>
+      <td>{{ a[1] }}</td>
+      <td>{{ a[2] }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <br>
+  <a href="/">Back to Login</a>
+</body>
+</html>
